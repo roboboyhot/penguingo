@@ -119,7 +119,9 @@ a {
 .penguinLogo {
   width: 5%;
   height: 5%;
+  position: relative;
 }
 .titleIndex {
   margin-left: 100px;
+  float: left;
 }
