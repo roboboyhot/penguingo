@@ -3,6 +3,7 @@
 
 
 import nameTitle from 'script.js'
+import content from 'script.js'
 function download(filename, text) {
   var element = document.createElement('a');
   element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
@@ -17,7 +18,7 @@ function download(filename, text) {
 
 }
 
-download(nameTitle,"This is the content of my file :)");
+download(nameTitle,content);
 
 
 
