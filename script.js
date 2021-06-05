@@ -1,4 +1,4 @@
-alert("Penguin Go Has Successfully Opened!")
+alert("Penguin Go Has Successfully Opened! Opening Recent File When You Left")
 function newPage() {
   var temp = document.getElementsByTagName("template")[0];
   var clon = temp.content.cloneNode(true);
