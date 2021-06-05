@@ -116,3 +116,7 @@ a {
   -ms-transform: translate(-50%,-300%);
   z-index: 1;
 }
+.penguinLogo {
+  width: 10%;
+  height: 10%;
+}
