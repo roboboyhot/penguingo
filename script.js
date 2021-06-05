@@ -17,5 +17,6 @@ area.value = localStorage.getItem('area');
 area.oninput = () => {
   localStorage.setItem('area', area.value)
 };
-
+var nameTitle = title.value
+var content = area.value
 
