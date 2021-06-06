@@ -18,5 +18,6 @@ area.oninput = () => {
   localStorage.setItem('area', area.value)
 };
 
-export var content = area.value
+var content = area.value
+export { content };
 
