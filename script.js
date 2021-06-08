@@ -18,4 +18,3 @@ area.oninput = () => {
 
 var content = area.value
 export { content };
-
